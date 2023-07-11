@@ -1,0 +1,381 @@
+2023-07-11 01:15:07.205 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 17656 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:15:07.216 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:15:08.776 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:15:08.788 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:15:08.788 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:15:08.893 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:15:08.899 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1595 ms
+2023-07-11 01:15:09.414 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:15:10.220 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:15:10.234 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.648 seconds (process running for 4.177)
+2023-07-11 01:15:10.237 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:15:16.789 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:15:16.790 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:15:16.791 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:15:19.042 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:16:00.888 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 3724 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:16:00.891 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:16:02.350 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:16:02.361 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:16:02.362 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:16:02.469 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:16:02.470 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1517 ms
+2023-07-11 01:16:02.998 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:16:03.764 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:16:03.778 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.387 seconds (process running for 3.798)
+2023-07-11 01:16:03.781 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:16:07.373 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:16:07.373 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:16:07.374 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:16:09.137 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:16:09.137 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:18:03.262 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 9672 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:18:03.266 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:18:04.778 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:18:04.794 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:18:04.794 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:18:04.928 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:18:04.928 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1585 ms
+2023-07-11 01:18:05.482 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:18:06.273 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:18:06.288 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.64 seconds (process running for 4.179)
+2023-07-11 01:18:06.291 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:18:12.923 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:18:12.923 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:18:12.925 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-07-11 01:18:42.064 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:25:54.688 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 17496 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:25:54.691 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:25:56.160 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:25:56.172 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:25:56.172 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:25:56.278 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:25:56.278 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1520 ms
+2023-07-11 01:25:56.813 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:25:57.606 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:25:57.619 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.528 seconds (process running for 4.047)
+2023-07-11 01:25:57.622 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:26:02.292 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:26:02.293 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:26:02.294 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:26:03.743 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:26:37.000 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 5492 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:26:37.006 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:26:38.633 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:26:38.650 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:26:38.651 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:26:38.781 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:26:38.781 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1688 ms
+2023-07-11 01:26:39.350 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:26:40.252 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:26:40.267 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.945 seconds (process running for 4.506)
+2023-07-11 01:26:40.271 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:26:56.432 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:26:56.433 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:26:56.434 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:26:58.033 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:27:03.253 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:34:17.687 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 3360 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:34:17.690 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:34:19.164 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:34:19.176 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:34:19.177 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:34:19.284 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:34:19.284 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1527 ms
+2023-07-11 01:34:19.836 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:34:20.619 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:34:20.633 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.535 seconds (process running for 4.054)
+2023-07-11 01:34:20.636 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:34:25.084 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:34:25.084 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:34:25.085 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:34:26.598 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:35:01.854 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 16992 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:35:01.857 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:35:03.327 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:35:03.341 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:35:03.341 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:35:03.460 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:35:03.460 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1539 ms
+2023-07-11 01:35:03.998 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:35:04.793 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:35:04.806 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.552 seconds (process running for 4.076)
+2023-07-11 01:35:04.809 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:35:07.422 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:35:07.422 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:35:07.423 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-07-11 01:35:08.826 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:38:53.169 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 5956 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:38:53.172 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:38:54.576 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:38:54.588 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:38:54.588 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:38:54.695 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:38:54.696 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1458 ms
+2023-07-11 01:38:55.193 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:38:55.933 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:38:55.945 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.342 seconds (process running for 3.85)
+2023-07-11 01:38:55.948 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:39:00.506 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:39:00.506 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:39:00.508 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-07-11 01:39:43.571 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:47:12.878 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 8020 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:47:12.881 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:47:14.371 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:47:14.383 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:47:14.384 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:47:14.497 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:47:14.498 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1549 ms
+2023-07-11 01:47:15.020 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:47:15.783 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:47:15.796 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.512 seconds (process running for 4.029)
+2023-07-11 01:47:15.799 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:47:19.332 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:47:19.332 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:47:19.334 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-07-11 01:47:21.312 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:47:30.320 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:51:48.761 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 10704 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:51:48.764 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:51:50.134 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:51:50.145 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:51:50.146 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:51:50.259 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:51:50.259 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1425 ms
+2023-07-11 01:51:50.746 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:51:51.460 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:51:51.472 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.277 seconds (process running for 3.748)
+2023-07-11 01:51:51.475 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:51:53.745 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:51:53.746 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:51:53.747 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:51:58.521 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:51:58.521 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:52:05.992 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:52:20.153 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:52:33.333 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:52:33.333 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:52:42.046 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:52:42.046 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:54:30.969 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 32 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 01:54:30.972 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 01:54:32.403 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 01:54:32.414 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 01:54:32.414 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 01:54:32.511 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 01:54:32.511 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1470 ms
+2023-07-11 01:54:33.002 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 01:54:33.734 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 01:54:33.750 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.348 seconds (process running for 3.852)
+2023-07-11 01:54:33.754 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 01:54:38.441 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 01:54:38.442 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 01:54:38.443 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 01:54:42.419 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:54:42.419 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:54:52.421 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 01:55:25.650 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 02:06:15.084 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 02:06:26.304 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 02:06:48.073 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 02:06:48.073 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 02:08:27.997 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 16312 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 02:08:27.999 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 02:08:29.388 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 02:08:29.399 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 02:08:29.399 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 02:08:29.492 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 02:08:29.492 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2023-07-11 02:08:29.970 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 02:08:30.651 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 02:08:30.662 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.104 seconds (process running for 5.562)
+2023-07-11 02:08:30.665 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 02:08:33.255 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 02:08:33.256 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 02:08:33.257 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 02:09:03.487 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 02:09:13.780 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 02:09:28.797 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 02:20:23.282 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 1972 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 02:20:23.285 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 02:20:24.865 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 02:20:24.878 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 02:20:24.879 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 02:20:24.982 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 02:20:24.982 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1630 ms
+2023-07-11 02:20:25.502 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 02:20:26.298 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 02:20:26.313 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 3.586 seconds (process running for 4.055)
+2023-07-11 02:20:26.318 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 02:20:29.740 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 02:20:29.741 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 02:20:29.742 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 02:20:35.274 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 02:20:35.274 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 02:20:42.127 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 02:20:42.127 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 02:22:01.550 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 02:22:01.550 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:49:11.243 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 460 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 15:49:11.245 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 15:49:12.489 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 15:49:12.500 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 15:49:12.500 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 15:49:12.594 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 15:49:12.594 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1290 ms
+2023-07-11 15:49:13.060 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 15:49:13.653 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 15:49:13.663 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 2.935 seconds (process running for 3.459)
+2023-07-11 15:49:13.665 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 15:49:19.905 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 15:49:19.906 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 15:49:19.907 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 15:49:30.325 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:49:30.325 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:50:49.841 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 15:50:49.841 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 15:51:00.523 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 15:51:00.531 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 15:52:17.952 INFO  c.M.r.InformationRestController - Request to /ApacheII/info
+2023-07-11 15:52:23.776 INFO  c.M.r.InformationRestController - Request to /Has-Bled/info
+2023-07-11 15:52:36.261 INFO  c.M.r.InformationRestController - Request to /IMT/info
+2023-07-11 15:52:43.901 INFO  c.M.r.InformationRestController - Request to /ApacheII/info
+2023-07-11 15:52:48.148 INFO  c.M.r.InformationRestController - Request to /Has-Bled/info
+2023-07-11 15:54:04.376 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:56:14.067 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:56:14.069 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:56:28.126 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:56:28.129 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:56:39.532 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:56:39.534 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:57:21.260 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:57:21.265 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 15:57:56.601 INFO  c.M.r.InformationRestController - Request to /IMT/info
+2023-07-11 15:58:43.830 INFO  c.M.r.InformationRestController - Request to /IMT/info
+2023-07-11 16:01:53.335 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:01:57.205 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:02:03.341 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:02:09.067 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:02:24.032 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:02:24.033 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:02:39.105 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:02:41.598 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:04:52.889 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:04:52.895 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:05:34.410 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:06:20.982 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:06:20.983 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:07:38.207 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:07:38.208 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:08:03.581 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:08:03.582 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:09:52.480 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:09:52.483 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:13:13.887 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:13:13.887 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:13:30.945 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:13:30.943 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:16:41.815 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:16:41.815 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:16:55.585 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:16:55.587 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:17:47.564 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:17:47.564 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:19:18.582 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:19:18.583 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:19:40.985 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:19:40.988 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:22:29.894 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:22:29.895 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:22:50.486 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:22:50.488 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:25:05.867 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:25:05.866 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:25:20.284 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:25:20.288 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:26:52.214 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:26:52.216 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:27:02.844 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:27:02.845 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:27:59.287 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:27:59.288 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:12.763 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:12.762 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:21.665 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:21.666 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:34.348 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:34.349 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:53.019 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:28:53.019 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:29:02.972 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:29:02.974 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:31:13.594 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:31:13.595 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:31:33.947 INFO  c.M.r.InformationRestController - Request to /IMT/info
+2023-07-11 16:32:15.918 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:32:15.919 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:32:28.090 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:32:28.091 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:34:02.825 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:34:02.827 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:34:25.221 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:34:25.222 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 16:35:23.483 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 16:35:47.026 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 16:35:59.171 INFO  c.M.r.ResultApacheIIRestController - Request to /ApacheII/result
+2023-07-11 16:36:08.952 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 16:36:08.956 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 16:36:14.872 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 16:36:14.872 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 16:36:24.532 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 16:36:24.533 INFO  c.M.r.ResultHasBledRestController - Request to /HasBled/result
+2023-07-11 18:48:26.000 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 11176 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 18:48:26.004 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 18:48:28.360 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 18:48:28.377 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 18:48:28.378 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 18:48:28.564 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 18:48:28.565 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2475 ms
+2023-07-11 18:48:29.365 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 18:48:30.554 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+2023-07-11 18:48:30.573 INFO  c.M.MedCalculatorApplication - Started MedCalculatorApplication in 5.379 seconds (process running for 5.845)
+2023-07-11 18:48:30.578 INFO  c.M.MedCalculatorApplication - Application started
+2023-07-11 18:48:31.986 INFO  c.M.MedCalculatorApplication - Starting MedCalculatorApplication using Java 20.0.1 with PID 11888 (C:\Users\Данил\Desktop\MedCalculator\target\classes started by Данил in C:\Users\Данил\Desktop\MedCalculator)
+2023-07-11 18:48:31.989 INFO  c.M.MedCalculatorApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-11 18:48:33.917 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+2023-07-11 18:48:33.936 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-11 18:48:33.936 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-11 18:48:34.089 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-11 18:48:34.090 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2006 ms
+2023-07-11 18:48:34.798 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2023-07-11 18:48:35.679 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-07-11 18:48:35.685 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-07-11 18:48:35.711 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-11 18:48:35.739 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8008 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8008 or configure this application to listen on another port.
+
+2023-07-11 18:48:37.560 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-11 18:48:37.561 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-11 18:48:37.562 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-07-11 18:48:54.445 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:48:54.445 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:49:24.765 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:49:24.766 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:49:41.027 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:49:41.030 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:49:55.943 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result
+2023-07-11 18:49:55.943 INFO  c.M.r.ResultIMTRestController - Request to /IMT/result

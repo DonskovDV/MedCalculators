@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Медицинские калькуляторы</title>
+    <link rel="icon" href="img/icon.png" type="image/png">.
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#E6E6FA">
+<div class="text-center">
+    <h1>Добро пожаловать в веб-сервис "медицинские калькуляторы"</h1>
+    <p style="font-size: 1.25rem">Мы предоставляем качественные медицинские услуги для удовлетворения ваших потребностей в области здравоохранения.</p>
+</div>
+<section id="services">
+    <div class="container">
+        <h2 align="center" >Наши калькуляторы</h2>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-4">
+                <a href="/calc-imt.html">
+                    <div class="card">
+                        <img src="/img/bmi.jpg" class="card-img-top" alt="" width="200" height="300">
+                        <div class="card-body">
+                            <h4 class="card-title">Индекс массы тела</h4>
+                            <a href="/info.html?IMT" class="card-text">Информация</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/calc-apache.html">
+                    <div class="card">
+                        <img src="/img/apache.jpg" class="card-img-top" alt="" width="200" height="300">
+                        <div class="card-body">
+                            <h4 class="card-title">Шкала Apache II</h4>
+                            <a href="/info.html?ApacheII" class="card-text">Информация</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/calc-has-bled.html">
+                    <div class="card">
+                        <img src="/img/has-bled.jpg" class="card-img-top" alt="" width="200" height="300">
+                        <div class="card-body">
+                            <h4 class="card-title">Шкала HAS-BLED</h4>
+                            <a href="/info.html?Has-Bled" class="card-text">Информация</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section id="about">
+    <div class="container">
+        <h2 align="center">О нас</h2>
+        <hr>
+        <p>Мы - команда профессионалов в области медицины, разработавших уникальный медицинский калькулятор. Он быстро и точно поможет вам рассчитать все необходимые параметры для поддержания вашего здоровья.<br>
+            Наш калькулятор основан на самых современных медицинских стандартах и использовании передовых технологий, что обеспечивает точность результатов.<br>
+            Мы стремимся предоставить вам наилучший уход и помочь вам получить важные сведения о вашем здоровье, необходимые для принятия правильных решений.</p>
+    </div>
+</section>
+<hr>
+<footer th:fragment="foot" >
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Медицинский калькулятор. Все права защищены.</p>
+                </div>
+
+            </div>
+        </div>
+
+</footer>
+</footer>
+</body>
+</html>

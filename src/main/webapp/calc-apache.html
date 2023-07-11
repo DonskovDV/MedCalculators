@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <title>Шкала Apache II</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fio_style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+        #spinner-div {
+            position: fixed;
+            display: none;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            z-index: 2;
+        }
+    </style>
+</head>
+<body  style="background-color:#E6E6FA">
+<header th:fragment="head">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/index.html">Медицинские калькуляторы</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-6">
+      <h1>Расчет шкалы Apache II</h1>
+
+      <form name="form" id="form">
+
+        <div class="form-group col-md-12">
+          <label id="lbl_disfunction_apache" for="disfunction_apache">Тяжелая органная дисфункция или иммуносупрессия в анамнезе
+          </label>
+          <select style="background-color:#f7f7f7;" class="form-control" size="1" id="disfunction_apache">
+            <option value="1">Нет</option>
+            <option value="2">Да</option>
+            <option value="3">Да + плановый послеоперационный</option>
+            <option value="4">Да + экстренный послеоперационный</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-12">
+          <label id="lbl_renal_failure_apache" for="renal_failure_apache">Острая почечная недостаточность
+          </label>
+          <select style="background-color:#f7f7f7;" class="form-control" size="1" id="renal_failure_apache">
+            <option value="1">Нет</option>
+            <option value="2">Да</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_age_apache" for="age_apache">Возраст</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="age_apache"
+                   pattern="\d*" placeholder="">
+            <div class="input-group-append">
+              <span class="input-group-text" >лет</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_rectal_temp_apache" for="rectal_temp_apache">Ректальная температура</label>
+          <div class="input-group">
+            <input name="pH" required type="number" step="0.1" class="form-control" id="rectal_temp_apache"
+                   pattern="\d*" placeholder="">
+            <div class="input-group-append">
+              <span class="input-group-text" >°C</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_avg_blood_pressure_apache" for="avg_blood_pressure_apache">Среднее артериальное давление</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="avg_blood_pressure_apache"
+                   pattern="\d*" placeholder="Норма:70-100">
+            <div class="input-group-append">
+              <span class="input-group-text" >мм Hg</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_heart_rate_apache" for="heart_rate_apache">ЧСС</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="heart_rate_apache"
+                   pattern="\d*" placeholder="Норма:60-100">
+            <div class="input-group-append">
+              <span class="input-group-text" >уд/мин</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_breath_rate_apache" for="breath_rate_apache">ЧД</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="breath_rate_apache"
+                   pattern="\d*" placeholder="Норма:12-20">
+            <div class="input-group-append">
+              <span class="input-group-text" >дых/мин</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_serum_sodium_apache" for="serum_sodium_apache">Натрий сыворотки</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="serum_sodium_apache"
+                   pattern="\d*" placeholder="Норма:136-145">
+            <div class="input-group-append">
+              <span class="input-group-text" >ммоль/л</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_serum_potassium_apache" for="serum_potassium_apache">Калий сыворотки</label>
+          <div class="input-group">
+            <input name="pH" required type="number" step="0.1" class="form-control" id="serum_potassium_apache"
+                   pattern="\d*" placeholder="Норма:3.5-5.5">
+            <div class="input-group-append">
+              <span class="input-group-text" >ммоль/л</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_serum_creatinine_apache" for="serum_creatinine_apache">Креатинин сыворотки</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="serum_creatinine_apache"
+                   pattern="\d*" placeholder="Норма:62-115">
+            <div class="input-group-append">
+              <span class="input-group-text" >мкмоль/л</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_hematocrit_apache" for="hematocrit_apache">Гематокрит</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="hematocrit_apache"
+                   pattern="\d*" placeholder="Норма:36-51">
+            <div class="input-group-append">
+              <span class="input-group-text" >%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_leuko_apache" for="leuko_apache">Лейкоциты</label>
+          <div class="input-group">
+            <input name="pH" required type="number" step="0.1" class="form-control" id="leuko_apache"
+                   pattern="\d*" placeholder="Норма:3.7-10.7">
+            <div class="input-group-append">
+              <span class="input-group-text" >*10^9/л</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label id="lbl_glasgow_apache" for="glasgow_apache">Оценка по шкале комы Глазго</label>
+          <div class="input-group">
+            <input name="pH" required type="number" class="form-control" id="glasgow_apache"
+                   pattern="\d*" placeholder="Норма:3-15">
+          </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <span>Оценка газового состава крови доступна?</span>
+          <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="blood_gas_switch" tabindex="0" checked>
+            <label class="onoffswitch-label" for="blood_gas_switch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+        </div>
+
+        <div id="gas_yes" >
+          <div class="form-group col-md-6">
+            <label id="lbl_pH_apache" for="pH_apache">pH артериальной крови</label>
+            <div class="input-group">
+              <input name="pH" required type="number" step="0.1" class="form-control" id="pH_apache"
+                     pattern="\d*" placeholder="Норма:7.38-7.44">
+            </div>
+          </div>
+
+          <div class="form-group col-md-6">
+            <span>FiO2?</span>
+            <div class="fio_switch">
+              <input type="checkbox" name="fio_switch" class="fio_switch-checkbox" id="FiO2_switch" tabindex="0" checked>
+              <label class="fio_switch-label" for="FiO2_switch">
+                <span class="fio_switch-inner"></span>
+                <span class="fio_switch-switch"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group col-md-6" ID="fio<0.5" >
+            <label id="lbl_PaO2_apache" for="PaO2_apache">PaO2</label>
+            <div class="input-group">
+              <input name="PaO2"  required type="number" class="form-control" id="PaO2_apache"
+                     pattern="\d*" placeholder="Норма:75-100">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon1">мм Hg</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group col-md-6" id="fio>=0.5">
+            <label id="lbl_gradient_apache" for="gradient_apache">А-а-градиент</label>
+            <div class="input-group">
+              <input name="gradient"  required type="number" class="form-control" id="gradient_apache"
+                     pattern="\d*" placeholder="Норма:5-25">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">мм Hg</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div id="gas_no">
+        <div class="form-group col-md-6">
+          <label id="lbl_bicarbonate_apache" for="bicarbonate_apache">Бикарбонат сыворотки</label>
+          <div class="input-group">
+            <input name="bicarbonate" required type="number" class="form-control" id="bicarbonate_apache"
+                   pattern="\d*" placeholder="Норма:22-32">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon3">ммоль/л</span>
+            </div>
+          </div>
+        </div>
+       </div>
+
+        <div class="col-12">
+          <button style="float:left" type=submit id="Send" class="btn btn-primary mr-2 mb-2">Рассчитать
+          </button>
+          <button style="float:left " type=reset class="d-none d-sm-block btn btn-secondary mr-2 mb-2">Очистить
+          </button>
+        </div>
+      </form>
+
+      <div class="clear"></div>
+      <div id="result">
+        <h1 id="title" class="title"></h1>
+        <h1 id="details" class="details"></h1>
+      </div>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+
+<div id="spinner-div" class="pt-5">
+  <div class="spinner-border text-primary" role="status">
+  </div>
+  <div class="text-primary">Подождите, идет расчет...</div>
+</div>
+
+<footer th:fragment="foot">
+  <div class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 Медицинский калькулятор. Все права защищены.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<script>document.write("<script type='text/javascript' src='/js/calc-apache.js?v=" + Date.now() + "'><\/script>");</script>
+</body>
+</html>

@@ -1,0 +1,510 @@
+<div class="container">
+    	<h2>Об этом калькуляторе</h2>
+    	    <p>Прогноз летальности у пациентов в ОРИТ по шкале APACHE II (шкала оценки острых физиологических расстройств и хронических нарушений состояния II)</p>
+    	<div id="formula">
+    	    <h3>Формула</h3>
+    		<p>Сумма баллов по следующим критериям:</p>
+            <table>
+                <tr>
+                    <th><span style="font-weight:bold">Критерий</span></th>
+                    <th><span style="font-weight:bold">Количество баллов</span></th>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Возраст, лет</span></td>
+                </tr>
+                <tr>
+                    <td>&lt;=44</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>45-54</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>55-64</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>65-74</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>&gt;74</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Тяжелая органная дисфункция или иммуносупрессия в анамнезе</span></td>
+                </tr>
+                <tr>
+                    <td>Нет</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Да, планово оперированные пациенты</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Да, неоперированные пациенты, оперированные по экстренным показаниям</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Ректальная температура, <sup>°</sup>C</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;40.9</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>39-40.9</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>38.5-38.9</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>36-38.4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>34-35.9</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>32-33.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>30-31.9</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>&lt;30</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Среднее артериальное давление, мм Hg</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;159</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>130-159</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>110-129</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>70-109</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>50-69</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>&lt;50</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Частота сердечных сокращений, уд/мин</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;179</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>140-179</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>110-139</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>70-109</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>55-69</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>40-54</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>&lt;40</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Частота дыхания, дых/мин</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;49</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>35-49</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>25-34</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>12-24</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>10-11</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>6-9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>&lt;6</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Оксигенация</span> </td>
+                </tr>
+                <tr>
+                    <td><a href="/aagradient">A-a - градиент</a> &gt;499</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>A-a - градиент 350-499</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>A-a - градиент 200-349</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>A-a - градиент &lt;200 (если FiO<sub>2</sub> &gt; 0.49) или PaO<sub>2</sub> &gt;70 (если<span style="font-weight:bold"> </span>FiO<sub>2</sub> &lt; 0.5)</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>PaO<sub>2</sub> 61-70</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>PaO<sub>2</sub> 55-60</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>PaO<sub>2</sub> &lt;55</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">pH артериальной крови</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;7.69</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>7.60-7.69</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>7.50-7.59</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>7.33-7.49</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>7.25-7.32</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>7.15-7.24</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>&lt;7.15</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Натрий сыворотки, ммоль/л</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;179</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>160-179</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>155-159</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>150-154</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>130-149</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>120-129</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>111-119</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>&lt;111</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Калий сыворотки, ммоль/л</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;6.9</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>6-6.9</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>5.5-5.9</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>3.5-5.4</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>3-3.4</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2.5-2.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>&lt;2.5</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Креатинин сыворотки, мкмоль/л</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;300.56 и ОПН</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>176.8-300.56 и ОПН</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>&gt;300.56 и ХПН</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>132.6-176.7 и ОПН</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>176.8-300.56 и ХПН</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>132.6-176.7 и ХПН</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>53.04-132.5</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>&lt;53.04</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Гематокрит, %</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;59.9</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>50-59.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>46-49.9</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>30-45.9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>20-29.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>&lt;20</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span style="font-weight:bold">Лейкоциты, *10<sup>9</sup>/л</span></td>
+                </tr>
+                <tr>
+                    <td>&gt;39.9</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>20-39.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>15-19.9</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>3.0-14.9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1.0-2.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>&lt;1.0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td><span style="font-weight:bold">Шкала комы Глазго</span></td>
+                    <td>15 - <a href="/shkalakomyglazgo">оценка комы по Глазго</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span style="font-weight:bold">Бикарбонат, ммоль/л.</span> Применяется, когда невозможно оценить газовый состав крови у пациентов с нормальной оксигенацией. </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&gt;52</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>41-52</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>32-40.9</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>22-31.9</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>18-21.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>15-17.9</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>&lt;15</td>
+                    <td>4</td>
+                </tr>
+            </table>
+            <p>Тяжелая органная дисфункция подразумевает под собой (анамнестически, до текущей госпитализации):</p>
+            <p><b>Печень</b></p>
+            <ul>
+                <li>Цирроз, подтвержденный биопсией</li>
+                <li>Подтвержденная портальная гипертензия (ПГ)</li>
+                <li>ЖК-кровотечение, ассоциированное с ПГ</li>
+                <li>Печеночная энцефалопатия, кома</li>
+            </ul>
+            <p><b>Сердце и сосуды</b></p>
+            <ul>
+                <li>Сердечная недостаточность NYHA IV</li>
+            </ul>
+            <p><b>Дыхательная система</b></p>
+            <ul>
+                <li>Хроническое рестриктивное, обструктивное или васкулярное заболевание, приведшеое к значительному ограничению физической активности, - неспособности подняться по лестнице или неспособности вести домашнее хозяйство.</li>
+                <li>Задокументированная хроническая гипоксия, гиперкапния, вторичная полицитемия, тяжелая легочная гипертензия (&gt;40 мм Hg), зависимость от респиратора.</li>
+            </ul>
+            <p><b>Почки</b></p>
+            <ul>
+                <li>Программный гемодиализ</li>
+            </ul>
+            <p><b>Иммуносупрессия</b></p>
+            <ul>
+                <li>Пациент получал иммуносупрессиную терапию, снизившую его сопротивляемость к инфекции: химиотерапия, облучение, высокие дозы стероидов. Заболевания, снижающие сопротивляемость к инфекции: лейкемия, лимфома, ВИЧ и проч.</li>
+            </ul>
+    	</div>
+
+    	<div id="interpret">
+    	    <h3>Интерпретация</h3>
+            <table>
+                <tr>
+                    <th>Оценка по шкале APACHE II</th>
+                    <th>Летальность, %</th>
+                </tr>
+                <tr>
+                    <td>0-4</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5-9</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>10-14</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>15-19</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>20-24</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>25-29</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>30-34</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>&gt;34</td>
+                    <td>85</td>
+                </tr>
+            </table>
+    	</div>
+    	<div id="addinfo">
+    	    <h3>Дополнительные сведения</h3>
+    		<p>Шкалы APACHE III и APACHE IV, несмотря на доскональную разработку и высокую прогностическую значимость, не получили широкого распространения по причине защиты их статистических методов авторским правом.</p>
+            <p>Шкала APACHE II может быть использована с целью информирования родственников пациента о вероятном исходе лечения и агрессивности терапии.</p>
+            <p>Все шкалы, применяемые в ОРИТ, должны быть периодически рекалиброваны для сответствия постоянно изменяющимся подходам в лечении и демографии.</p>
+    	</div>
+        <div id="reference">
+            <h3>Литература</h3>
+            <ul>
+                <li><a href="https://www.cms.gov/Research-Statistics-Data-and-Systems/Research/HealthCareFinancingReview/Downloads/CMS1190362dl.pdf" rel="nofollow" target="_blank">Acute physiology and chronic health evaluation (APACHE II) and Medicare reimbursement,  D. P. Wagner, E. A. Draper - Health Care Financing Review, Nov. 1984</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
